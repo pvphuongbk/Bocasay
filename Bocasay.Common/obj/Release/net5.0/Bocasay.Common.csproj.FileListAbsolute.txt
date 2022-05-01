@@ -1,0 +1,12 @@
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\bin\Release\net5.0\Bocasay.Common.deps.json
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\bin\Release\net5.0\Bocasay.Common.dll
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\bin\Release\net5.0\ref\Bocasay.Common.dll
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\bin\Release\net5.0\Bocasay.Common.pdb
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\obj\Release\net5.0\Bocasay.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\obj\Release\net5.0\Bocasay.Common.AssemblyInfoInputs.cache
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\obj\Release\net5.0\Bocasay.Common.AssemblyInfo.cs
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\obj\Release\net5.0\Bocasay.Common.csproj.CoreCompileInputs.cache
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\obj\Release\net5.0\Bocasay.Common.dll
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\obj\Release\net5.0\ref\Bocasay.Common.dll
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\obj\Release\net5.0\Bocasay.Common.pdb
+D:\PhuongPV\Bocasay.Api\Bocasay.Common\obj\Release\net5.0\Bocasay.Common.csproj.AssemblyReference.cache

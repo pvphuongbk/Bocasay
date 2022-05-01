@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1eaf34c2-963a-4498-b881-f6c5057d62e6": {
+      "ProjectGuid": "1eaf34c2-963a-4498-b881-f6c5057d62e6",
+      "DisplayName": "Bocasay.Api",
+      "ColorIndex": 0
+    },
+    "f265b221-1d89-4486-8cf4-d77983d0751d": {
+      "ProjectGuid": "f265b221-1d89-4486-8cf4-d77983d0751d",
+      "DisplayName": "Bocasay.Service",
+      "ColorIndex": 1
+    },
+    "a8c596a5-53bb-42ba-9740-32f4d52cee61": {
+      "ProjectGuid": "a8c596a5-53bb-42ba-9740-32f4d52cee61",
+      "DisplayName": "Bocasay.Domain",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

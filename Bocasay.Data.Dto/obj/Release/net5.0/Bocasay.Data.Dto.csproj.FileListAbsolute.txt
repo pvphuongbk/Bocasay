@@ -1,0 +1,15 @@
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\bin\Release\net5.0\Bocasay.Data.Dto.deps.json
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\bin\Release\net5.0\Bocasay.Data.Dto.dll
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\bin\Release\net5.0\ref\Bocasay.Data.Dto.dll
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\bin\Release\net5.0\Bocasay.Data.Dto.pdb
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\bin\Release\net5.0\Bocasay.Common.dll
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\bin\Release\net5.0\Bocasay.Common.pdb
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\obj\Release\net5.0\Bocasay.Data.Dto.csproj.AssemblyReference.cache
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\obj\Release\net5.0\Bocasay.Data.Dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\obj\Release\net5.0\Bocasay.Data.Dto.AssemblyInfoInputs.cache
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\obj\Release\net5.0\Bocasay.Data.Dto.AssemblyInfo.cs
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\obj\Release\net5.0\Bocasay.Data.Dto.csproj.CoreCompileInputs.cache
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\obj\Release\net5.0\Bocasay.Data.Dto.csproj.CopyComplete
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\obj\Release\net5.0\Bocasay.Data.Dto.dll
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\obj\Release\net5.0\ref\Bocasay.Data.Dto.dll
+D:\PhuongPV\Bocasay.Api\Bocasay.Data.Dto\obj\Release\net5.0\Bocasay.Data.Dto.pdb

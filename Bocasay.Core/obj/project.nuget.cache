@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GemWjaQyW2B1ceA6wzSlNOv63Yh1oHGzVnXDTsYXEo5oSeKivz7rbHHm0IbFXmNWIfuMHHe2oitQ6wzuktGdTA==",
+  "success": true,
+  "projectFilePath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Core\\Bocasay.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrphu\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
+    "C:\\Users\\mrphu\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bocasay.Core\Bocasay.Core.csproj" />
+    <ProjectReference Include="..\Bocasay.Data.Dto\Bocasay.Data.Dto.csproj" />
+    <ProjectReference Include="..\Bocasay.Data.JsonFile\Bocasay.Data.JsonFile.csproj" />
+    <ProjectReference Include="..\Bocasay.Data.Redis\Bocasay.Data.Redis.csproj" />
+    <ProjectReference Include="..\Bocasay.Data.SqlServer\Bocasay.Data.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

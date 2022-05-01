@@ -1,0 +1,570 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\New folder\\Bocasay\\BE\\Bocasay.Service\\Bocasay.Service.csproj": {}
+  },
+  "projects": {
+    "D:\\New folder\\Bocasay\\BE\\Bocasay.Common\\Bocasay.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\Bocasay\\BE\\Bocasay.Common\\Bocasay.Common.csproj",
+        "projectName": "Bocasay.Common",
+        "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Common\\Bocasay.Common.csproj",
+        "packagesPath": "C:\\Users\\mrphu\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrphu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\Bocasay\\BE\\Bocasay.Core\\Bocasay.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\Bocasay\\BE\\Bocasay.Core\\Bocasay.Core.csproj",
+        "projectName": "Bocasay.Core",
+        "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Core\\Bocasay.Core.csproj",
+        "packagesPath": "C:\\Users\\mrphu\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrphu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.4, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\Bocasay.Data.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\Bocasay.Data.Dto.csproj",
+        "projectName": "Bocasay.Data.Dto",
+        "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\Bocasay.Data.Dto.csproj",
+        "packagesPath": "C:\\Users\\mrphu\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrphu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Common\\Bocasay.Common.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Common\\Bocasay.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.JsonFile\\Bocasay.Data.JsonFile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.JsonFile\\Bocasay.Data.JsonFile.csproj",
+        "projectName": "Bocasay.Data.JsonFile",
+        "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.JsonFile\\Bocasay.Data.JsonFile.csproj",
+        "packagesPath": "C:\\Users\\mrphu\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.JsonFile\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrphu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\Bocasay.Data.Dto.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\Bocasay.Data.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Redis\\Bocasay.Data.Redis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Redis\\Bocasay.Data.Redis.csproj",
+        "projectName": "Bocasay.Data.Redis",
+        "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Redis\\Bocasay.Data.Redis.csproj",
+        "packagesPath": "C:\\Users\\mrphu\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Redis\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrphu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\Bocasay.Data.Dto.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\Bocasay.Data.Dto.csproj"
+              },
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.SqlServer\\Bocasay.Data.SqlServer.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.SqlServer\\Bocasay.Data.SqlServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.88, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.SqlServer\\Bocasay.Data.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.SqlServer\\Bocasay.Data.SqlServer.csproj",
+        "projectName": "Bocasay.Data.SqlServer",
+        "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.SqlServer\\Bocasay.Data.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\mrphu\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrphu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Common\\Bocasay.Common.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Common\\Bocasay.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\Bocasay\\BE\\Bocasay.Domain\\Bocasay.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\Bocasay\\BE\\Bocasay.Domain\\Bocasay.Domain.csproj",
+        "projectName": "Bocasay.Domain",
+        "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Domain\\Bocasay.Domain.csproj",
+        "packagesPath": "C:\\Users\\mrphu\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrphu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Core\\Bocasay.Core.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Core\\Bocasay.Core.csproj"
+              },
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\Bocasay.Data.Dto.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\Bocasay.Data.Dto.csproj"
+              },
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.JsonFile\\Bocasay.Data.JsonFile.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.JsonFile\\Bocasay.Data.JsonFile.csproj"
+              },
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Redis\\Bocasay.Data.Redis.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Redis\\Bocasay.Data.Redis.csproj"
+              },
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.SqlServer\\Bocasay.Data.SqlServer.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.SqlServer\\Bocasay.Data.SqlServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\Bocasay\\BE\\Bocasay.Service\\Bocasay.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\Bocasay\\BE\\Bocasay.Service\\Bocasay.Service.csproj",
+        "projectName": "Bocasay.Service",
+        "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Service\\Bocasay.Service.csproj",
+        "packagesPath": "C:\\Users\\mrphu\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrphu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Core\\Bocasay.Core.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Core\\Bocasay.Core.csproj"
+              },
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\Bocasay.Data.Dto.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Dto\\Bocasay.Data.Dto.csproj"
+              },
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Redis\\Bocasay.Data.Redis.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Data.Redis\\Bocasay.Data.Redis.csproj"
+              },
+              "D:\\New folder\\Bocasay\\BE\\Bocasay.Domain\\Bocasay.Domain.csproj": {
+                "projectPath": "D:\\New folder\\Bocasay\\BE\\Bocasay.Domain\\Bocasay.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
